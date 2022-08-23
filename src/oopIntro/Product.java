@@ -2,6 +2,11 @@ package oopIntro;
 
 public class Product {
 
+	int id;
+	String carBrand;
+	String carModel;
+	double carPrice;
+	
 	public Product() {
 		System.out.println("hey");
 	}
@@ -13,8 +18,5 @@ public class Product {
 		this.carPrice = carPrice;
 	}
 
-	int id;
-	String carBrand;
-	String carModel;
-	double carPrice;
+	
 }
